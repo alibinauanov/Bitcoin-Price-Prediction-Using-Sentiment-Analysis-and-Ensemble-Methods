@@ -1,0 +1,6 @@
+Test Loss (MSE): 0.000604676955845207
+Test Mean Absolute Error (MAE): 0.018992042168974876
+First few values of y_pred_rescaled: [28145.738 28145.738 28169.502 28195.13  28214.533]
+First few values of y_test_rescaled: [28262.82347 28262.82347 28262.82347 28262.82347 28262.82347]
+Mean Squared Error: 48525.74423282527
+Mean Absolute Error: 201.60807135941306

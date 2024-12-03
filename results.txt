@@ -1,0 +1,17 @@
+5 epochs:
+Test Loss (MSE): 1933.49609375
+Test Mean Absolute Error (MAE): 4.423154830932617
+Mean Squared Error: 1933.4723649258592
+Mean Absolute Error: 4.423275564483674
+
+20 epochs:
+Test Loss (MSE): 2711.271728515625
+Test Mean Absolute Error (MAE): 31.525028228759766
+Mean Squared Error: 2711.263165870009
+Mean Absolute Error: 31.525036809915623
+
+50 epochs:
+Test Loss (MSE): 22327.166015625
+Test Mean Absolute Error (MAE): 145.03468322753906
+Mean Squared Error: 22327.16924473335
+Mean Absolute Error: 145.03459321081527
