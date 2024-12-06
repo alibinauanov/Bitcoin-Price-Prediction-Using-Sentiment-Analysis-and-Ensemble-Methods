@@ -116,14 +116,19 @@ except Exception as e:
 print("First few values of y_pred_rescaled:", y_pred_rescaled[:5])
 print("First few values of y_test_rescaled:", y_test_rescaled[:5])
 
-# Plot actual vs predicted prices
+# Get the dates for the test set (make sure the dates are ordered in the same way as the predictions)
+test_dates = test_data[test_data['date'] > split_date]['date'].reset_index(drop=True)
+
+# Plot actual vs predicted prices with timeline on the x-axis
 plt.figure(figsize=(10, 6))
-plt.plot(y_test_rescaled.flatten(), label='Actual Prices')
-plt.plot(y_pred_rescaled.flatten(), label='Predicted Prices')
+plt.plot(test_dates, y_test_rescaled.flatten(), label='Actual Prices')
+plt.plot(test_dates, y_pred_rescaled.flatten(), label='Predicted Prices')
 plt.legend()
 plt.title('Actual vs Predicted Prices')
-plt.xlabel('Time')
+plt.xlabel('Date')
 plt.ylabel('Price')
+plt.xticks(rotation=45)  # Rotate date labels for better visibility
+plt.tight_layout()  # Adjust layout to prevent clipping of labels
 plt.show()
 
 # Calculate evaluation metrics
@@ -142,4 +147,4 @@ plt.ylabel('Frequency')
 plt.show()
 
 # Save the model
-model.save('new_lstm_32batches.h5')
+model.save('new_lstm_32batches_dec5.h5')
