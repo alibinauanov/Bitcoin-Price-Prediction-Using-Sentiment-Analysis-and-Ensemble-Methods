@@ -71,4 +71,4 @@ This project integrates social media sentiment analysis and financial metrics to
 
 
 ## Access the Full Paper
-[View the PDF](./Capstone_Report_Fall_2024_CSDSE.pdf)
+[View the PDF](https://github.com/alibinauanov/Bitcoin-Price-Prediction-Using-Sentiment-Analysis-and-Ensemble-Methods/blob/main/Capstone%20Report%20Fall%202024%20CSDSE.pdf)
