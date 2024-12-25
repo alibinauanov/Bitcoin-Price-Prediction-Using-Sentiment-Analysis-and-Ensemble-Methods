@@ -57,6 +57,7 @@ This project integrates social media sentiment analysis and financial metrics to
 ---
 
 ## Results
+![ensemble](https://github.com/alibinauanov/Bitcoin-Price-Prediction-Using-Sentiment-Analysis-and-Ensemble-Methods/blob/main/ensemble%20result.jpg)
 - **Performance**: Achieved 78% accuracy with the ensemble model, outperforming individual sentiment models.
 - **Visualization**: Generated graphs comparing predicted vs. actual Bitcoin prices, highlighting model effectiveness.
 - **Key Insights**: BERT-based sentiment scores demonstrated superior accuracy among individual tools.
